@@ -7,11 +7,13 @@
     <title>Rélogio Dinâmico</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="carregar()">
     <header><h1>Rélogio</h1></header>   
     <section>
-        <div id="saud">Bom dia!</div>
-        <div id="image"><img src="../Relogio Dinâmico/midias/bomdia.png" alt="image" srcset=""></div>
+        <div id="saud"></div>
+        <div id="image">
+            <img id="foto" src="../Relogio Dinâmico/midias/bomdia.png" alt="foto">
+        </div>
         <div id="hora"></div>
     </section>
     <footer>@FlitzDev</footer>
