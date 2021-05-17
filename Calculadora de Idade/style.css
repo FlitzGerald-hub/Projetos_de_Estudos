@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(32, 32, 32);
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+section{
+    width: 400px;
+    background-color: rgb(208, 208, 255);
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+#txt{
+
+}
+
+#res{
+
+}
+
+footer{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+
+}
